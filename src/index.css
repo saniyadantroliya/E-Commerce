@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+
+/* COLOR-ROOT */
+
+@theme {
+  --color-black: #000000;
+  --color-gray-dark: #666666;
+  --color-gray-light: #D2D2D2;
+  --color-white: #FFFFFF;
+  --color-coral: #DA7B67;
+  --color-pink: #E78A8A;
+  --color-rose-bg: #F3E9E9;
+  --color-red: #FF1A1A;
+  --color-green: #16985E;
+  --color-orange: #FFA048;
+}
+
+
+/* Marcellus Regular */
+@font-face {
+  font-family: 'Marcellus';
+  src: url('/fonts/Marcellus-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Jost Variable (Normal) */
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/Jost-VariableFont_wght.ttf');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Jost Variable (Italic) */
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/Jost-Italic-VariableFont_wght.ttf');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  font-family: "Marcellus" ,sans-serif;
+}
+
+
+body {
+  font-family: 'Jost', sans-serif;
+}
