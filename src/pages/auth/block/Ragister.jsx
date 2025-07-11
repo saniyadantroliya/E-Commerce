@@ -142,7 +142,7 @@ const Ragister = () => {
 
         {/* Submit button and login link */}
         <div className="form-btn flex flex-col items-center justify-center mt-[-30px] relative">
-          <Button children="Sign in" btnStyle="submit" />
+          <Button children="Sign Up" btnStyle="submit" />
           <span className="text-black text-[16px] pt-[30px]">
             <Link to="/auth/login">Already have an account?____</Link>
           </span>
